@@ -1,0 +1,131 @@
+.header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            background: url(img/fondo.jpg) no-repeat center;
+            background-size: cover;
+            flex-direction: column;
+        }
+        .title{
+            margin-bottom: 40px;
+            font-size: 60px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            
+        }
+        p{
+            
+            font-size: 18px;
+            color: white;
+            
+            
+        }
+        .btn{
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 40px;
+            border: 2px solid #043cb4;
+            color: white;
+            text-decoration: none;
+            background: #043cb4;
+        }
+        .btn:hover{
+            background: none;
+        }
+        .content{
+            height: 60vh;
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;
+        }
+        .sau{
+            padding: 50px 0;
+            background: #666565;
+            flex-direction: column;
+        }
+        .box-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .box-container .box{
+            height: 170px;
+            width: 270px;
+            background: #171717;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+            margin:20px;
+        }
+        .box-container .box i {
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            color: white;
+            background: #2bc017;
+            font-size: 25px;
+            margin: 10px 0;
+        }
+        .box-container .box h3{
+            font-size: 20px;
+            color: #607d8b;
+        }
+        .box-container .box p{
+           
+            font-size: 16px;
+        }
+        .price{
+            background: url(img/casa.jpg) no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+        }
+        .about{
+            background: #303030;
+            
+        }
+        .box-container2{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .box-container2 .box{
+            width: 250px;
+            padding-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+            background: #171717;
+            margin: 20px 20px;
+        }
+        .box-container2 .box img{
+            height: 70px;
+            width: 70px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-top: 50px;
+            border: 6px solid #3db32e;    
+        }
+        .box-container2 .box h3{
+            font-size: 20px;
+            color: #3db32e;
+            padding-top: 10px;
+        }
+        .box-container2 .box p{
+            font-size: 18px;
+            color: white;
+            padding: 0;
+        }
+        .box-container2 .box .stars i{
+            font-size: 15px;
+            color: #3db32e;
+        }
+        .contact{
+            padding: 50px 0;
+            background: #171717;
+        }
